@@ -3,20 +3,29 @@
   "version": "0.0.0",
   "description": "node-http-proxy-heroku",
   "main": "http-proxy-heroku.js",
+  "keywords": [
+    "http",
+    "proxy"
+  ],
+  "engines": {
+    "node": "5.7.x"
+  },
+  "dependencies": {
+    "date-time-string": "0.0.9",
+    "log-manager": "0.0.10",
+    "log-writer": "0.0.9"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "engines": {
-    "node": "0.10.x",
-    "npm":  "1.2.x"
-  },
   "repository": {
     "type": "git",
-    "url": "https://github.com/LightSpeedWorks/node-http-proxy-heroku.git"
+    "url": "LightSpeedWorks/node-http-proxy-heroku"
   },
   "author": "LightSpeedC",
-  "license": "BSD",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/LightSpeedWorks/node-http-proxy-heroku/issues"
-  }
+  },
+  "homepage": "https://github.com/LightSpeedWorks/node-http-proxy-heroku#readme"
 }
