@@ -1,0 +1,2 @@
+call heroku login
+pause
