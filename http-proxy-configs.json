@@ -1,0 +1,8 @@
+{
+	"excludes": [
+		"*.twimg.com",
+		"*.gravatar.com",
+		"*.facebook.net",
+		"*.twitter.com"
+	]
+}
