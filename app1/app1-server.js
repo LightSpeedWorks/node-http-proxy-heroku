@@ -29,6 +29,7 @@ void function () {
 		fs.readFile(__dirname + file,
 		function (err, data) {
 			if (err) {
+				log.warn('error reading:', file, err);
 				res.writeHead(500);
 				return res.end('Error loading ' + file);
 			}
