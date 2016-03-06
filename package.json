@@ -13,7 +13,9 @@
   "dependencies": {
     "date-time-string": "0.0.9",
     "log-manager": "0.0.10",
-    "log-writer": "0.0.9"
+    "log-writer": "0.0.9",
+    "socket.io": "^1.4.5",
+    "socket.io-client": "^1.4.5"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

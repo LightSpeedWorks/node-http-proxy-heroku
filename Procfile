@@ -1,1 +1,1 @@
-web: node http-proxy-heroku.js
+web: node app1/app1-server
