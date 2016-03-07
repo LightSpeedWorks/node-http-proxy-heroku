@@ -4,6 +4,7 @@ void function () {
 	var io = require('socket.io-client');
 	var log = require('log-manager').getLogger();
 	log.setLevel(process.env.APP_LOG_LEVEL || 'trace');
+	log.info('logLevel:', process.env.APP_LOG_LEVEL || 'trace');
 
 	var targetUrl = process.argv[2] || 'http://localhost:8000';
 

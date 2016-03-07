@@ -7,6 +7,7 @@ void function () {
 	var path = require('path');
 	var log = require('log-manager').getLogger();
 	log.setLevel(process.env.APP_LOG_LEVEL || 'trace');
+	log.info('logLevel:', process.env.APP_LOG_LEVEL || 'trace');
 
 	// port number ポート番号
 	var port = process.argv[2] || process.env.PORT || 80;
