@@ -1,2 +1,2 @@
-node app1-client http://http-proxy.herokuapp.com
+node app1-client %APP_HTTP_PROXY_URL%
 pause

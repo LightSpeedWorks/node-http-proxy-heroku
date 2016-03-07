@@ -1,2 +1,2 @@
-node internal-proxy 9999 http://http-proxy.herokuapp.com
+node internal-proxy 9999 %APP_HTTP_PROXY_URL%
 pause
